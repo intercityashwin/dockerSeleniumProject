@@ -2,58 +2,58 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="13825" started-at="2023-02-08T08:24:51Z" finished-at="2023-02-08T08:25:05Z">
+  <suite name="All Test Suite" duration-ms="21567" started-at="2023-02-13T10:28:27Z" finished-at="2023-02-13T10:28:48Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="13825" started-at="2023-02-08T08:24:51Z" finished-at="2023-02-08T08:25:05Z">
+    <test name="Login Test" duration-ms="21567" started-at="2023-02-13T10:28:27Z" finished-at="2023-02-13T10:28:48Z">
       <class name="org.tests.loginTest">
-        <test-method status="PASS" signature="initilization()[pri:0, instance:org.tests.loginTest@1445d7f]" name="initilization" is-config="true" duration-ms="8430" started-at="2023-02-08T08:24:51Z" finished-at="2023-02-08T08:25:00Z">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:org.tests.loginTest@1445d7f]" name="initilization" is-config="true" duration-ms="12009" started-at="2023-02-13T10:28:27Z" finished-at="2023-02-13T10:28:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method status="PASS" signature="initilization()[pri:0, instance:org.tests.loginTest@1445d7f]" name="initilization" is-config="true" duration-ms="7644" started-at="2023-02-08T08:24:51Z" finished-at="2023-02-08T08:24:59Z">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:org.tests.loginTest@1445d7f]" name="initilization" is-config="true" duration-ms="12889" started-at="2023-02-13T10:28:27Z" finished-at="2023-02-13T10:28:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method status="PASS" signature="initilization()[pri:0, instance:org.tests.loginTest@1445d7f]" name="initilization" is-config="true" duration-ms="8574" started-at="2023-02-08T08:24:51Z" finished-at="2023-02-08T08:25:00Z">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:org.tests.loginTest@1445d7f]" name="initilization" is-config="true" duration-ms="12158" started-at="2023-02-13T10:28:27Z" finished-at="2023-02-13T10:28:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:org.tests.loginTest@1445d7f]" name="validLogin" duration-ms="3532" started-at="2023-02-08T08:24:59Z" finished-at="2023-02-08T08:25:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:org.tests.loginTest@1445d7f]" name="invalidLogin" duration-ms="1599" started-at="2023-02-08T08:25:00Z" finished-at="2023-02-08T08:25:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="loginFailed()[pri:0, instance:org.tests.loginTest@1445d7f]" name="loginFailed" duration-ms="2362" started-at="2023-02-08T08:25:00Z" finished-at="2023-02-08T08:25:02Z">
+        <test-method status="PASS" signature="loginFailed()[pri:0, instance:org.tests.loginTest@1445d7f]" name="loginFailed" duration-ms="5469" started-at="2023-02-13T10:28:39Z" finished-at="2023-02-13T10:28:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFailed -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.tests.loginTest@1445d7f]" name="tearDown" is-config="true" duration-ms="178" started-at="2023-02-08T08:25:01Z" finished-at="2023-02-08T08:25:01Z">
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:org.tests.loginTest@1445d7f]" name="invalidLogin" duration-ms="2138" started-at="2023-02-13T10:28:39Z" finished-at="2023-02-13T10:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:org.tests.loginTest@1445d7f]" name="validLogin" duration-ms="6199" started-at="2023-02-13T10:28:40Z" finished-at="2023-02-13T10:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.tests.loginTest@1445d7f]" name="tearDown" is-config="true" duration-ms="96" started-at="2023-02-13T10:28:41Z" finished-at="2023-02-13T10:28:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.tests.loginTest@1445d7f]" name="tearDown" is-config="true" duration-ms="85" started-at="2023-02-08T08:25:02Z" finished-at="2023-02-08T08:25:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.tests.loginTest@1445d7f]" name="tearDown" is-config="true" duration-ms="227" started-at="2023-02-13T10:28:44Z" finished-at="2023-02-13T10:28:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.tests.loginTest@1445d7f]" name="tearDown" is-config="true" duration-ms="110" started-at="2023-02-08T08:25:02Z" finished-at="2023-02-08T08:25:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.tests.loginTest@1445d7f]" name="tearDown" is-config="true" duration-ms="84" started-at="2023-02-13T10:28:46Z" finished-at="2023-02-13T10:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.tests.loginTest -->
       <class name="org.tests.cartTest">
-        <test-method status="PASS" signature="initilization()[pri:0, instance:org.tests.cartTest@6a396c1e]" name="initilization" is-config="true" duration-ms="8711" started-at="2023-02-08T08:24:51Z" finished-at="2023-02-08T08:25:00Z">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:org.tests.cartTest@6a396c1e]" name="initilization" is-config="true" duration-ms="12114" started-at="2023-02-13T10:28:27Z" finished-at="2023-02-13T10:28:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method status="PASS" signature="addComputerToCart()[pri:0, instance:org.tests.cartTest@6a396c1e]" name="addComputerToCart" duration-ms="4943" started-at="2023-02-08T08:25:00Z" finished-at="2023-02-08T08:25:05Z">
+        <test-method status="PASS" signature="addComputerToCart()[pri:0, instance:org.tests.cartTest@6a396c1e]" name="addComputerToCart" duration-ms="9296" started-at="2023-02-13T10:28:39Z" finished-at="2023-02-13T10:28:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addComputerToCart -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.tests.cartTest@6a396c1e]" name="tearDown" is-config="true" duration-ms="129" started-at="2023-02-08T08:25:05Z" finished-at="2023-02-08T08:25:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.tests.cartTest@6a396c1e]" name="tearDown" is-config="true" duration-ms="129" started-at="2023-02-13T10:28:48Z" finished-at="2023-02-13T10:28:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
