@@ -1,15 +1,20 @@
 pipeline {
     agent any
     stages {
-        stage('Build Jar') {
+        stage('Build Automated Tests Jar') {
             steps {
                 bat "mvn clean package -DskipTests"
             }
         }
-        stage('Build Image') {
+        stage('Build Docker Image Image') {
             steps {
                 bat "docker build -t=seleniumdocker ."
             }
+        }
+        stage('Execute Automated Tests Jar') {
+             steps {
+                bat "docker build -t=seleniumdocker ."
+             }
         }
     }
 }
