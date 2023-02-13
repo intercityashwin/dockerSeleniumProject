@@ -1,5 +1,4 @@
 pipeline {
-    // master executor should be set to 0
     agent any
     stages {
         stage('Build Jar') {
@@ -9,7 +8,7 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                bat "docker build -t='vinsdocker/selenium-docker' ."
+                bat "docker build -t=seleniumdocker ."
             }
         }
     }
