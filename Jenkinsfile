@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Execute Automated Tests Jar') {
              steps {
-                bat "docker build -t=seleniumdocker ."
+                bat "docker-compose up"
              }
         }
     }
