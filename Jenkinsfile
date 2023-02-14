@@ -16,8 +16,9 @@ pipeline {
                  bat "docker-compose up tests"
              }
         }
-        stage('Spin down Selenium Grid Infrastructure') {
-             steps {
+        post('Spin down Selenium Grid Infrastructure') {
+             always {
+                 archiveArtifacts artifacts : 'output/**'
                  bat "docker-compose down"
              }
         }

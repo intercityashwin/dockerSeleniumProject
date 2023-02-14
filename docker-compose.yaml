@@ -34,5 +34,5 @@ services:
       - BROWSER=chrome
       - MODULE=testng.xml
     volumes:
-      - ./containerExectuionResultsTestNg:/usr/share/seleniumdocker/test-output
-      - ./containerExectuionResultsExtentReport:/usr/share/seleniumdocker/reports
+      - ./output/containerExectuionResultsTestNg:/usr/share/seleniumdocker/test-output
+      - ./output/containerExectuionResultsExtentReport:/usr/share/seleniumdocker/reports
