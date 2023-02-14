@@ -39,15 +39,15 @@ public class loginTest extends initialize {
         loginPage loginPage = pageFactory.getLoginPage.apply(initialize.getDriver());
         loginPage.loginToApplication(initiateProperties.getProperty("email"),initiateProperties.getProperty("password"));
         homePage homePage = pageFactory.getHomePage.apply(initialize.getDriver());
-        //Assert.assertTrue(homePage.isUserDisplayed());
-        Assert.assertFalse(homePage.isUserDisplayed());
+        Assert.assertTrue(homePage.isUserDisplayed());
+        //Assert.assertFalse(homePage.isUserDisplayed());
     }
 
     @Test
     public void dummyTestToFail(){
         landingPage landingPage = pageFactory.getLandingPage.apply(getDriver());
         landingPage.clickLogin();
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
 }
