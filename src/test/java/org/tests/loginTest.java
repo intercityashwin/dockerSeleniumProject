@@ -39,8 +39,8 @@ public class loginTest extends initialize {
         loginPage loginPage = pageFactory.getLoginPage.apply(initialize.getDriver());
         loginPage.loginToApplication(initiateProperties.getProperty("email"),initiateProperties.getProperty("password"));
         homePage homePage = pageFactory.getHomePage.apply(initialize.getDriver());
-        Assert.assertTrue(homePage.isUserDisplayed());
-        //Assert.assertFalse(homePage.isUserDisplayed());
+        //Assert.assertTrue(homePage.isUserDisplayed());
+        Assert.assertFalse(homePage.isUserDisplayed());
     }
 
 }
