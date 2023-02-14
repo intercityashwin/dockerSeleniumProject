@@ -43,4 +43,11 @@ public class loginTest extends initialize {
         Assert.assertFalse(homePage.isUserDisplayed());
     }
 
+    @Test
+    public void dummyTestToFail(){
+        landingPage landingPage = pageFactory.getLandingPage.apply(getDriver());
+        landingPage.clickLogin();
+        Assert.assertTrue(false);
+    }
+
 }
