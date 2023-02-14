@@ -6,6 +6,11 @@ pipeline {
                 bat "mvn clean package -DskipTests"
             }
         }
+        stage('Build Docker File') {
+             steps {
+                bat "docker build -t=seleniumdocker ."
+             }
+        }
         stage('Spin up Selenium Grid Infrastructure') {
              steps {
                 bat "docker-compose up -d hub chrome firefox"
