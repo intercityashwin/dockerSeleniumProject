@@ -1,0 +1,39 @@
+java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -Dbrowser=chrome -Dhubhost=localhost org.testng.TestNG testng.xml
+java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -Dbrowser=chrome -Dhubhost=192.168.1.2 org.testng.TestNG testng.xml
+
+
+java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=chrome -DHUB_HOST=192.168.1.2 org.testng.TestNG testng.xml
+
+192.168.1.2
+10.22.174.20
+
+docker run -it --entrypoint=/bin/sh seleniumdocker
+
+mvn clean package -DskipTests
+
+docker build -t=seleniumdocker .
+
+
+docker run -e browser=chrome -e hubhost=10.22.174.20 -e module=testng.xml seleniumdocker
+
+docker run -e browser=chrome -e hubhost=192.168.1.2 -e module=testng.xml seleniumdocker
+
+
+docker run -p 8080:8080 -p 50000:50000 -v "C:\Automation\Selenium\JenkinsDockerParent:/var/jenkins_home" jenkins/jenkins:lts
+2f771e41da6b429fb2390ce06671a8c5
+
+
+visual testing using zest and pupeteer
+
+docker run -p 8080:8080 -p 50000:50000 -v "C:\JenkinsParent:/var/jenkins_home" jenkins/jenkins:2.150.2
+c15a111da40b4a81bdd860b578eaf6f2
+
+
+
+
+
+
+https://github.com/intercityashwin/dockerSeleniumProject.git
+
+
+java -jar agent.jar -jnlpUrl http://localhost:8080/manage/computer/SeleniumDocker/jenkins-agent.jnlp -secret 052ed4d98387c9862e694ee21dd73d739e49b64199a5499d69cf2dc1712c5952 -workDir "C:\Automation\Selenium\JenkinsDockerSlave"
